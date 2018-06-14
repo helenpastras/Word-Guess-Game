@@ -1,0 +1,60 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Word Guess Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="recet.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Tangerine:700" rel="stylesheet">
+    <script src="game.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <a href="index.html" id="logo"><H1>HANGMAN</H1></a>
+                </div>
+            </div>    
+        </div>
+    </header>
+    <div id="hangman" class="container">
+        <!-- <section class="main-section"> -->
+        <div id="image" class="row">
+            <div class="col-md-6">
+                <!-- image      -->
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Press any key to get started!</h2>
+                        <h3>Wins:</h3>
+                        <p>#</p>
+                        <p>Current Word</p>
+                        <!-- If the word is madonna, display it like this when the game starts: _ _ _ _ _ _ _.
+                        As the user guesses the correct letters, reveal them: m a d o _  _ a. -->
+                        <p>_ _ _ _ _ _</p>
+                    </div>
+                </div>        
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Number of Guesses Remaining:</h2>
+                        <p>#</p>
+                    </div>
+                </div> 
+                <div class="row">
+                    <div id="guessed" class="col-md-12">     
+                        <h2>Letters Already Guessed:</h2>
+                        <!-- <p>(Letters the user has guessed, displayed like L Z Y H).</p>  -->
+                    </div>
+                </div>  
+            </div>
+        </div>
+        
+</body>
+</html>
